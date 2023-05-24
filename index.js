@@ -7,5 +7,6 @@ document.querySelector("main#main").remove();
 /* Create your new element here and assign it to newHeader */
 const newHeader = document.createElement("h1");
 newHeader.id = "victory"
-newHeader.innerHTML = "TMNT is the champion!";
+newHeader.innerHTML = "BenTen is the champion!";
 newHeader.className = "victory";
+document.body.main.append(newHeader)
